@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>statement & loop</title>
+</head>
+<body>
+	<script>
+		 var h=10;
+		  if(h<20){
+			  alert("value above 10");
+		  }
+		  else{
+			  alert("value below 10");
+		  } 
+		  //if else elseif condition//
+		  var age=20;
+		  var age=prompt("Enter you age");
+		  if(age>=18){
+			  document.write('you are eligible for vote');
+		  }
+		  else if(age==17){
+			  document.write('Next year you are eligible for vote');
+		  }
+		  else{
+			  document.write('you are not eligible for vote');
+		  }  
+		  document.write("<br>");
+		  //switch statement//
+		  var color=prompt("Enter your color");
+		  switch (color){
+			case "red":
+				document.write("you type red");
+			break;	
+			case "black":
+				document.write("you type black");
+			break;	
+			case "pink":
+				document.write("you type pink");
+			break;	
+			case "blue":
+				document.write("you type blue");
+			break;	
+			default:
+				document.write("you type red/blue/black/pink");		
+		  }
+		  document.write("<br>");
+		  //while dowhile//
+		  var i=1;
+		  while(i<=10){
+			document.write(i);
+			document.write("<br>");
+			i++;
+		  }
+		  document.write("<br>");
+		  var z=90;
+		  do{
+			document.write(z);
+			document.write("<br>");
+			z++;
+		  }while(z<=10)
+		  
+		  var a=1234;
+		  var c=0;
+		  
+		  while(a>0){
+		  b=a%10;
+		  c=c*10+b;
+		  a=math.floor(a/10);
+		  document.write(c);
+		  }
+		  
+  </script>
+</body>
+</html>  
